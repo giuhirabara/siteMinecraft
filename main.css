@@ -1,0 +1,92 @@
+.navbar {
+    background-color: #744c18d7;
+    font-family: "video", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.navbar-brand,
+.navbar-brand:hover {
+    font-family: "video", serif;
+    font-weight:bolder;
+    color: #288123;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #288123;
+    color:#dfdfdf;
+}
+
+.nav .nav-link {
+    color: #288123;
+}
+
+#sobrealoja {
+    background-color:#288123;
+    color: #fff;
+    font-family: "video", serif;
+}
+
+#sobrealoja h2 {
+    font-weight: bolder;
+}
+
+#biomas {
+    background-color: #dfdfdf;
+}
+
+.container h2, 
+h4 {
+    font-family: "video", serif;
+    font-weight:bolder;
+}
+
+.container h4 {
+    text-align: center;
+}
+
+#curiosidades {
+    background-color: #bedfbc;
+}
+
+#curiosidades h2 {
+    color: #288123;
+    padding-bottom: 40px;
+}
+
+#curiosidades .nav .nav-link.active {
+    background-color: #288123;
+    color:#fff;
+    font-weight: bolder;
+}
+
+#curiosidades img {
+    margin: 0 auto;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+#faleConosco {
+    background-color: #dfdfdf;
+    font-family: "video", serif;
+}
+
+form button {
+    margin-top: 20px;
+}
+
+.social-links i {
+    margin-left: 25px;
+    color:#288123;
+}
+
+.col-md-5 h3 {
+    margin-top: 40px;
+}

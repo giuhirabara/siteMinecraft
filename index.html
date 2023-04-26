@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>site de Minecraft</title>
+    <link rel="stylesheet"  href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.typekit.net/cjy1irw.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <link rel="stylesheet"  href="./main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0">TUDO SOBRE MINECRAFT</h1>
+            <button  class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-nav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-nav">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobreOSite" class="nav-link">
+                            <i class="bi bi-house-door-fill"></i>
+                            Sobre o site
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#biomas" class="nav-link">
+                            <i class="bi bi-tree-fill"></i>
+                            Biomas
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#curiosidades" class="nav-link">
+                            <i class="bi bi-question-circle-fill"></i>
+                            Curiosidades
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#faleConosco" class="nav-link">
+                            <i class="bi bi-telephone-fill"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho">
+        <section id="sobreOSite">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="./lib/minecraft1.jpg" alt="Foto de capa de jogo minecraft">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="./lib/minecraft2.webp" alt="Foto de capa de jogo minecraft">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="./lib/minecraft3.jpg" alt="Foto de capa de jogo minecraft">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" class="active" data-bs-target="#carousel" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5" id="sobrealoja">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="./lib/sobreALoja.jpg" class="d-block w-100 rounded" alt="imagem de jogo minecraft">
+                        </div>
+                        <div class="col-md-7">
+                            <h2 class="section-title">Sobre o site</h2>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem, recusandae ipsum? Impedit amet voluptatum, praesentium voluptates excepturi laborum explicabo, optio officiis dolorem natus non nostrum rem necessitatibus tempore. Reprehenderit, facere.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="biomas" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center"> Biomas </h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="./lib/biomaDeserto.png" alt="Bioma de deserto no Minecraft" class="d-block w-100 rounded mb-2">
+                        <h4>Bioma de deserto</h4>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./lib/biomaErmo.jpg" alt="Bioma de ermo no Minecraft" class="d-block w-100 rounded mb-2">
+                        <h4>Bioma de Ermo</h4>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./lib/biomaSakura.jpg" alt="Bioma de sakura no Minecraft" class="d-block w-100 rounded mb-2">
+                        <h4>Bioma de sakura</h4>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./lib/biomaSavana.jpg" alt="Bioma de savana no Minecraft" class="d-block w-100 rounded mb-2">
+                        <h4>Bioma de savana</h4>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./lib/biomaSelva.jpg" alt="Bioma de selva no Minecraft" class="d-block w-100 rounded mb-2">
+                        <h4>Bioma de selva</h4>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./lib/biomaSnow.jpg" alt="Bioma snow no Minecraft" class="d-block w-100 rounded mb-2">
+                        <h4>Bioma snow</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="curiosidades" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Curiosidades</h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-curiosidades">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#animaisDeMine" class="nav-link active">Animais</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#monstrosDeMine" class="nav-link">Monstros</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#mineriosDeMine" class="nav-link">Minerios</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="animaisDeMine">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img src="./lib/gato.webp" alt="gato de minecraft" class="d-block w-100">
+                                        <h5 class="section-title text-center">Gatos</h5>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img src="./lib/lhama.webp" alt="lhama de minecraft" class="d-block w-50">
+                                        <h5 class="section-title text-center">lhamas</h5>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img src="./lib/lobo.webp" alt="lobo de minecraft" class="d-block w-100">
+                                        <h5 class="section-title text-center">lobos</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="monstrosDeMine">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img src="./lib/creeper.webp" alt="creeper de minecraft" class="d-block w-50">
+                                        <h5 class="section-title text-center">creeper</h5>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img src="./lib/enderman.webp" alt="enderman de minecraft" class="d-block w-100">
+                                        <h5 class="section-title text-center">enderman</h5>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img src="./lib/esqueleto.webp" alt="esqueleto de minecraft" class="d-block w-50">
+                                        <h5 class="section-title text-center">esqueleto</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="mineriosDeMine">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img src="./lib/minerioCarvao.webp" alt="minerio de carvao de minecraft" class="d-block w-100">
+                                        <h5 class="section-title text-center">Carvão</h5>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img src="./lib/minerioDima.webp" alt="minerio de diamante de minecraft" class="d-block w-100">
+                                        <h5 class="section-title text-center">Diamante</h5>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img src="./lib/minerioOuro.webp" alt="minerio de ouro de minecraft" class="d-block w-100">
+                                        <h5 class="section-title text-center">Ouro</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="faleConosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Fale conosco</h2>
+                    <div class="col-md-7">
+                        <form>
+                            <div>
+                                <label for="nome" class="form-label">Seu nome:</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div>
+                                <label for="email" class="form-label">Seu e-mail:</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div>
+                                <label for="telefone" class="form-label">Seu telefone: (opcional)</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div>
+                                <label for="mensagem" class="form-label">Sua mensagem:</label>
+                                <textarea id="mensagem" class="form-control" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-success">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3>Redes sociais</h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="">
+                                        <i class="bi bi-instagram"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="">
+                                        <i class="bi bi-whatsapp"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="">
+                                        <i class="bi bi-facebook"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
